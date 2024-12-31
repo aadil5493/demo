@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+
+<div class="container">
+  <h1>Registration</h1>
+  <form action="#" method="post">
+    <table>
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" name="firstname"></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="lastname"></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Confirm Password</td>
+        <td><input type="password" name="confirm_password"></td>
+      </tr>
+      <tr>
+        <td>DOB</td>
+        <td><input type="date" name="dob"></td>
+      </tr>
+      <tr>
+        <td>Phone Number</td>
+        <td><input type="tel" name="phone_number"></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+
+      <tr>
+        <td>Department</td>
+        <td>
+          <select name="department">
+            <option value="Diploma">Diploma</option>
+            <option value="DIET">DIET</option>
+            <option value="MBA">MBA</option>
+            <option value="Bsc">Bsc</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><textarea name="address" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td>
+          <input type="checkbox" name="language" value="english"> English
+          <input type="checkbox" name="language" value="Gujrati"> Gujrati
+          <input type="checkbox" name="language" value="Hindi"> Hindi
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+<style>body {
+  background:radial-gradient(red, purple);
+  
+  }
+
+.container {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="date"],
+.container input[type="tel"],
+.container select {
+    width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container input[type="radio"],
+.container input[type="checkbox"] {
+  margin-right: 3px;
+}
+
+.container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  background-color:red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+  background:radial-gradient(red, purple);
+}
+
+
+
+
+
+
+
+</style>
